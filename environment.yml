@@ -1,0 +1,24 @@
+name: oc_env
+
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - python
+  - pip
+  - pandas
+  - matplotlib
+  - ipykernel 
+  - jupyter 
+  - nbconvert 
+  - cchardet 
+  - statsmodels
+
+  - pip:
+    - requests
+    - fredapi
+    - selenium
+    - beautifulsoup4
+    - nltk
+    - chardet
